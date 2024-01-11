@@ -23,7 +23,7 @@ stylesheets).
 One idea to help with the complications created by CSS Nesting is to
 take an inventory of the relevant elements in a shadow root prior to use
 as a guide for whether to traverse into nested styles to look for nested
-`@layer` rules. That has some limitations on it’s own, namely that a
+`@layer` rules. That has some limitations on its own, namely that a
 shadow root can have elements added to it after the fact. Also, complex
 selectors can create a false negative about whether it’s worth
 traversing into a nest.
