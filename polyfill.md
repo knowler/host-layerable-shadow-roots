@@ -17,7 +17,7 @@ at the top-level. That is likely how document authors are setting their
 styles anyway.
 
 A pre-runtime helper would not be able to account for all the styles on
-a part as there are different sources (e.g. style tags or constructed
+a page as there are different sources (e.g. style tags or constructed
 stylesheets).
 
 One idea to help with the complications created by CSS Nesting is to
